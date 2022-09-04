@@ -10,6 +10,9 @@
 //     }
 // }
 
+
+// Основы: типы данных
+
 // class Program
 // {
 //     public static void main(String[] args) {
@@ -65,6 +68,9 @@
 //     }
 // }
 
+
+// Неявная типизация
+
 // public class program {
 //     public static void main(String[] args) {
 //         var a = 123;
@@ -100,6 +106,15 @@
 //       System.out.println(Integer.MIN_VALUE); // -2147483648
 //   }
 // }
+
+
+// Операции Java
+
+// Присваивание: =
+// Арифметические: *, /, +, -, %, ++, --
+// Операции сравнения: <, >, ==, !=, >=, <=
+// Логические операции:  ||, &&, ^, !
+// Побитовые операции <<, >>, &, |, ^
 
 // class program
 // {
@@ -149,8 +164,11 @@
 //     }
 // }
 
+
 // Массивы
+
 // Одномерные
+
 // public class program {
 //     public static void main(String[] args) {
 
@@ -166,6 +184,7 @@
 // }
 
 // Многомерные
+
 // public class program {
 //     public static void main(String[] args) {
 
@@ -180,6 +199,7 @@
 // }
 
 // Преобразования
+
 // public class program {
 //     public static void main(String[] args) {
 //         int i = 123; double d = i;
@@ -199,6 +219,7 @@
 //  }
 
 // НО
+
 // class Program
 // {
 //   public static void main(String[] args) {
@@ -207,8 +228,11 @@
 //   }
 // }
 
+
 // Получение данных из терминала
+
 // Строки
+
 // import java.util.Scanner;
 // public class program {
 //    public static void main(String[] args) {
@@ -221,6 +245,7 @@
 // }
 
 // Некоторые примитивы
+
 // import java.util.Scanner;
 // public class program {
 //     public static void main(String[] args) {
@@ -235,6 +260,7 @@
 // }
 
 // Проверка на соответствие получаемого типа
+
 // import java.util.Scanner;
 // public class program {
 //    public static void main(String[] args) {
@@ -249,6 +275,7 @@
 // }
 
 // Форматированный вывод
+
 // public class program {
 //     public static void main(String[] args) {
 //         int a = 1, b = 2;
@@ -284,6 +311,7 @@
 // }
 
 // Виды спецификаторов
+
 // %d: целочисленных значений
 // %x: для вывода шестнадцатеричных чисел
 // %f: для вывода чисел с плавающей точкой
@@ -306,6 +334,7 @@
 // }
 
 // Область видимости переменных
+
 // У переменных существует понятие «область видимости». 
 // Если переменную объявили внутри некоторого блока фигурных скобок { }, 
 // то снаружи этого блока переменная будет недоступна.
@@ -322,6 +351,7 @@
 // }
 
 // Функции и методы
+
 // Функции и методы — это технически одно и то же. Функции могут 
 // не принадлежать классам, а методы принадлежат. 
 // В java все функции являются методами. 
@@ -346,6 +376,7 @@
 
 // Управляющие конструкции: 
 // условный оператор
+
 // public class program {
 //     public static void main(String[] args) {
 //         int a = 1;
@@ -373,6 +404,7 @@
 // }
 
 // тернарный оператор
+
 // public class program {
 //     public static void main(String[] args) {
 //         int a = 1;
@@ -383,6 +415,7 @@
 // }
 
 // Оператор выбора
+
 // import java.util.Scanner;
 // public class program {
 //     public static void main(String[] args) {
@@ -420,6 +453,7 @@
 // }
 
 // Циклы
+
 // Цикл — это многократное выполнение одинаковой последовательности действий.
 
 // В java доступны следующие циклы:
@@ -428,6 +462,7 @@
 // цикл for; и его модификация for in
 
 // Цикл while
+
 // public class program {
 //     public static void main(String[] args) {
 //         int value = 321;
@@ -442,6 +477,7 @@
 // }
 
 // Цикл do while
+
 // public class program {
 //     public static void main(String[] args) {
 //         int value = 321;
@@ -462,6 +498,7 @@
 // * ближайшего к оператору
 
 // Оператор цикла for
+
 // public class program {
 //     public static void main(String[] args) {
 
@@ -498,6 +535,7 @@
 // }
 
 // Вложенные циклы
+
 // public class program {
 //     public static void main(String[] args) {
 //         for (int i = 0; i < 5; i++) {
@@ -516,6 +554,7 @@
 
 // for :
 // Работает только для коллекций
+
 // public class program {
 //     public static void main(String[] args) {
 
@@ -547,6 +586,7 @@
 
 // Работа с файлами
 // Создание и запись\ дозапись
+
 // import java.io.FileWriter;
 // import java.io.IOException;
 // public class program {
@@ -565,6 +605,7 @@
 // }
 
 // Чтение, Вариант посимвольно
+
 // import java.io.*;
 // public class program {
 //     public static void main(String[] args) throws Exception {
@@ -582,6 +623,7 @@
 // }
 
 // Вариант построчно
+
 // import java.io.*;
 
 // public class program {
